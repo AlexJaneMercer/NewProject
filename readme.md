@@ -1,3 +1,3 @@
 # git repository
 
-Group 3
+Group 3 - lesson 3
