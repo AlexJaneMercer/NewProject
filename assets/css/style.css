@@ -131,6 +131,7 @@ h1{
 
 .FAQ{
 	display: flex;
+	margin-bottom: 80px;
 }
 
 .FAQBody{
