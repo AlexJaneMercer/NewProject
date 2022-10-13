@@ -247,6 +247,10 @@ p{
 	text-align: center;
 }
 
+.clientsSaysTop h1 {
+    margin-bottom: 32px;
+}
+
 .clientsSaysTop > p{
 
 	font-size: 20px;
