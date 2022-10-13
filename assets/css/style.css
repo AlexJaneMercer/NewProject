@@ -236,6 +236,7 @@ input.email__form::placeholder {
     border: 1px solid #3563e9;
     border-radius: 5px;
     color: #3563e9;
+    float: left;
 }
 
 /* block-1-2 */
