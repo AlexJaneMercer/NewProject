@@ -8,7 +8,7 @@
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Template 3</title>
     </head>
     <body>
@@ -42,7 +42,7 @@
 			<div class="FAQCollapse">
 				<div class="FAQ-accordion"> 
 					<details class="FAQ-accordion-items">
-						<summary>How soon will my order ship? <span class="FAQ-marker"> <img src="./assets/images/Vector.png" class="FAQImg1"> <img src="images/Vector2.png" class="FAQImg2"> </span> </summary>
+						<summary>How soon will my order ship? <span class="FAQ-marker"> <img src="./assets/images/Vector.png" class="FAQImg1"> <img src="/assets/images/Vector2.png" class="FAQImg2"> </span> </summary>
 						<div class="FAQ-accordion-content">
 							<p>Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa.</p>
 						</div>
@@ -51,7 +51,7 @@
 
 				<div class="FAQ-accordion"> 
 					<details class="FAQ-accordion-items">
-						<summary>Is There Any Warrantly Exclusions <span class="FAQ-marker"> <img src="./assets/images/Vector.png" class="FAQImg1"> <img src="images/Vector2.png" class="FAQImg2"> </span> </summary>
+						<summary>Is There Any Warrantly Exclusions <span class="FAQ-marker"> <img src="./assets/images/Vector.png" class="FAQImg1"> <img src="/assets/images/Vector2.png" class="FAQImg2"> </span> </summary>
 						<div class="FAQ-accordion-content">
 							<p>Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa.</p>
 						</div>
@@ -60,7 +60,7 @@
 
 				<div class="FAQ-accordion"> 
 					<details class="FAQ-accordion-items">
-						<summary>Are there any return exclusions? <span class="FAQ-marker"> <img src="./assets/images/Vector.png" class="FAQImg1"> <img src="images/Vector2.png" class="FAQImg2"> </span> </summary>
+						<summary>Are there any return exclusions? <span class="FAQ-marker"> <img src="./assets/images/Vector.png" class="FAQImg1"> <img src="./assets/images/Vector2.png" class="FAQImg2"> </span> </summary>
 						<div class="FAQ-accordion-content">
 							<p>Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa.</p>
 						</div>
@@ -69,7 +69,7 @@
 
 				<div class="FAQ-accordion"> 
 					<details class="FAQ-accordion-items">
-						<summary>Will I be charged for a replacement item? <span class="FAQ-marker"> <img src="./assets/images/Vector.png" class="FAQImg1"> <img src="images/Vector2.png" class="FAQImg2"> </span> </summary>
+						<summary>Will I be charged for a replacement item? <span class="FAQ-marker"> <img src="./assets/images/Vector.png" class="FAQImg1"> <img src="./assets/images/Vector2.png" class="FAQImg2"> </span> </summary>
 						<div class="FAQ-accordion-content">
 							<p>Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa.</p>
 						</div>
@@ -78,7 +78,7 @@
 
 				<div class="FAQ-accordion"> 
 					<details class="FAQ-accordion-items">
-						<summary>How can I track my orders & payment? <span class="FAQ-marker"> <img src="./assets/images/Vector.png" class="FAQImg1"> <img src="images/Vector2.png" class="FAQImg2"> </span> </summary>
+						<summary>How can I track my orders & payment? <span class="FAQ-marker"> <img src="./assets/images/Vector.png" class="FAQImg1"> <img src="./assets/images/Vector2.png" class="FAQImg2"> </span> </summary>
 						<div class="FAQ-accordion-content">
 							<p>Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa.</p>
 						</div>
@@ -88,6 +88,9 @@
 		</div>
 	</div>
 	<!-- block-5-6     -->
+
+	<!-- block-7-8 -->
+	<!-- action -->
 
 	<!-- action -->
 
@@ -104,24 +107,26 @@
 					</h2>
 
 					<div class="action__form">
-						<form class="form__action" action="/">
-							<div class="input__inner">
+						<form class="form__field" action="/">
+							<div class="field__inner">
 								<img
-									class="input__image"
+									class="field__image"
 									src="./assets/images/action/email.png"
 									alt=""
 								/>
 								<input
-									class="action__input"
+									class="field__input"
 									type="email"
 									placeholder="Email address"
 								/>
-								<button class="action__button">
+								<button class="field__button">
 									SignUp
 								</button>
 							</div>
 						</form>
+						<!-- form__field -->
 					</div>
+					<!--action__form-->
 				</div>
 				<!--action__content-->
 
@@ -145,7 +150,7 @@
 
 	<footer class="footer">
 		<div class="container">
-			<div class="footer__inner">
+			<nav class="footer__inner">
 				<div class="footer__item">
 					<h3 class="footer__item__title">Product</h3>
 					<div class="footer__link__inner">
@@ -182,7 +187,7 @@
 				</div>
 				<!-- footer__item -->
 
-				<div class="footer__item footer__item--subscribe">
+				<div class="footer__item subscribe">
 					<h3 class="footer__item__title">Subscribe</h3>
 					<form class="form__subscribe" action="/">
 						<input
@@ -201,7 +206,7 @@
 					</div>
 				</div>
 				<!-- footer__item -->
-			</div>
+			</nav>
 			<!-- footer__inner -->
 
 			<hr class="footer__hr" />
@@ -210,14 +215,14 @@
 				<div class="footer__logo">
 					<a href="#">
 						<img
-							class="f-logo"
+							class="footer__logo svg"
 							src="./assets/images/footer/footerlogo.svg"
 							alt=""
 						/>
 					</a>
 				</div>
 
-				<div class="footer__link__inner link__inner--privacy">
+				<div class="footer__link__inner privacy">
 					<a class="footer__link footer__link--privacy" href="#"
 						>Terms</a
 					>
@@ -262,6 +267,5 @@
 		</div>
 		<!-- container -->
 	</footer>
-	<!-- block-7-8 -->
 </body>
 </html>
