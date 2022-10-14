@@ -2,7 +2,7 @@
 
 html,
 body {
-    text-align: center;
+   
     justify-content: center;
     align-items: center;
 }
@@ -407,7 +407,7 @@ input.email__form::placeholder {
     width: 374px;
     height: 213px;
     /* Inside auto layout */
-
+    text-align: center;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -458,7 +458,7 @@ input.email__form::placeholder {
     font-size: 22px;
     line-height: 27px;
     /* identical to box height */
-
+    
     display: flex;
     align-items: center;
     text-align: center;
@@ -476,7 +476,7 @@ input.email__form::placeholder {
 
 .bottom {
     /* Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam. */
-
+    
     width: 334px;
     height: 48px;
     font-style: normal;
@@ -500,7 +500,7 @@ input.email__form::placeholder {
 
 .icon {
     /* Icon/Feather Icon */
-
+    text-align: center;
     display: inline-block;
     width: 48px;
     height: 48px;
