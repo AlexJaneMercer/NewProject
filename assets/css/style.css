@@ -331,6 +331,7 @@ input.email__form::placeholder {
     flex-grow: 0;
     }
     .column__left__text{font-family: 'Inter';
+    max-width: 338px;
     padding-top: 16px;
     font-style: normal;
     font-weight: 400;
@@ -345,6 +346,7 @@ input.email__form::placeholder {
     
     }
     .column__mid__text{font-family: 'Inter';
+    max-width: 338px;
     padding-top: 16px;
     font-style: normal;
     font-weight: 400;
@@ -359,6 +361,7 @@ input.email__form::placeholder {
     
     }
     .column__right__text{font-family: 'Inter';
+    max-width: 338px;
     padding-top: 16px;
     font-style: normal;
     font-weight: 400;
