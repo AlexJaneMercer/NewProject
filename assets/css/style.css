@@ -269,18 +269,13 @@ input.email__form::placeholder {
     .row{
       display: flex;
       padding-top: 70px;
+      justify-content: center;
     }
     .column{
       width: 356px;
     
     }
     
-    .row .column:nth-child(2){
-      padding-left: 55px;
-    }
-    .row .column:nth-child(3){
-      padding-left: 55px;
-    }
     
     .column__left__head{
     font-family: 'Inter';
